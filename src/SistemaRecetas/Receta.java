@@ -22,7 +22,7 @@ public class Receta {
     
     public Receta(String nombre)
     {
-        nombre = "";
+        this.nombre = nombre;
         preparacion = "";
         
         dificultadReceta = Dificultad.Facil;
