@@ -40,9 +40,6 @@ public class SistemaRecetas {
         etiquetas.add(new Etiqueta("etiqueta2"));
         guiController.setEtiquetas(etiquetas);
         guiController.actualizarEtiquetas();
-        
-                
-        
     }
     
     public static void agregarReceta(Receta receta)
